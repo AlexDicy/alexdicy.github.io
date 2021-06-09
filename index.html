@@ -1,2 +1,184 @@
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-Index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <title>Lorenzo Lapucci</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            background-color: hsl(192deg 6% 14%);
+            margin: 0;
+            font-family: 'Gothic A1', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #4E4E4E;
+
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        .container {
+            margin: auto;
+            max-width: 1200px;
+            height: 800px;
+            background-color: white;
+            box-shadow: 0px 1px 20px 20px #00000038, 0px 1px 10px 2px #0000009c;
+        }
+
+        .material-icons, .material-icons-outlined {
+            color: #4A7884;
+            vertical-align: middle;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #F3F5F5;
+            height: 180px;
+            margin-bottom: 40px;
+            box-shadow: 0px 0.68px 23.28px 0px #0000001A, 0px 0.68px 8.2px 0px #0000001A;
+        }
+
+        .header-box-line {
+            width: 14px;
+            height: calc(100% - 46px);
+            margin-left: 42px;
+            margin-right: 20px;
+            background-color: #8EDBEE;
+        }
+
+        .header-title {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 46px;
+        }
+
+        .full-width {
+            width: 100%;
+        }
+
+        .header-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            padding-top: 42px;
+            padding-bottom: 42px;
+        }
+
+        .info-icon {
+            margin-right: 8px;
+        }
+
+        .row {
+            display: flex;
+            margin: 0 32px;
+            justify-content: space-between;
+        }
+
+        .row-box {
+            display: flex;
+        }
+
+        .row-box > .material-icons, .row-box > .material-icons-outlined {
+            margin-top: 9px;
+        }
+
+        .row-title {
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 46px;
+        }
+
+        .title {
+            font-weight: 600;
+        }
+
+        .title-margin {
+            margin-top: 8px;
+        }
+
+        small {
+            color: #628993;
+        }
+    </style>
+    <div class="container">
+        <div class="header">
+            <div class="header-box-line"></div>
+            <div class="header-box full-width">
+                <div class="header-title">Lorenzo Lapucci</div>
+                <b>Full-stack Web Developer</b><br>
+                Coding since I was 12, I have been<br>
+                programming for web, mobile, and desktop<br>
+            </div>
+            <div class="header-box-line"></div>
+            <div class="header-box full-width header-info">
+                <div><span class="info-icon material-icons-outlined">email</span> lorenzolapucci@gmail.com</div>
+                <div><span class="info-icon material-icons">message</span> @AlexDicy</div>
+                <div><span class="info-icon material-icons">place</span> Macerata, Italy - 01/02/2002</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-box">
+                <span class="info-icon material-icons-outlined">short_text</span>
+                <div>
+                    <div class="row-title">Language</div>
+                    <span class="title">Italian</span> native
+                    <div class="title-margin"></div>
+                    <span class="title">English</span> B2 - C1 level<br>
+                    Cambridge First (level B2)<br>
+                    language certificate with a score<br>
+                    of 177/180
+                </div>
+            </div>
+            <div class="row-box">
+                <span class="info-icon material-icons-outlined">code</span>
+                <div>
+                    <div class="row-title">Programming skills</div>
+                    <span class="title">Frameworks and Languages</span><br>
+                    Java, HTML, CSS, JavaScript,<br>
+                    Node.js, MongoDB, MySQL, PHP,<br>
+                    Vue.js...
+                    <div class="title-margin"></div>
+                    <span class="title">Tools & O.S.</span><br>
+                    IntelliJ, Git, Windows, Linux...
+                    <div class="title-margin"></div>
+                    <span class="title">Other</span><br>
+                    AJAX, JSON...
+                </div>
+            </div>
+            <div class="row-box">
+                <span class="info-icon material-icons-outlined">school</span>
+                <div>
+                    <div class="row-title">Education</div>
+                    <span class="title">University (ongoing)</span><br>
+                    Unicam Informatica, Camerino.<br>
+                    Field: IT<br>
+                    <small>October 2020 - Current</small>
+                    <div class="title-margin"></div>
+                    <span class="title">Secondary School (completed)</span><br>
+                    ITTS E. Divini, San Severino Marche.<br>
+                    Field: IT, Valutation: 100/100<br>
+                    <small>September  2015 - June 2020</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-title" style="margin: 140px auto auto auto">Work experience and Personal projects will be written soon</div>
+        </div>
+    </div>
+</body>
+</html>   
